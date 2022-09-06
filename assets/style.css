@@ -41,6 +41,9 @@ button.button-secondary{
   flex-direction:column;
   justify-content: center;
 }
+.logo img {
+  width: 5rem;
+}
 /* #endregion Common */
 /* #region Utility */
 .container {
@@ -52,7 +55,7 @@ button.button-secondary{
 .container-sm {
   width: 60%;
   max-width: 100%;
-  margin: 1rem auto;
+  margin: auto;
 }
 
 .row {
@@ -157,9 +160,6 @@ header .menu {
   flex-grow: 2;
 }
 
-nav img {
-  width: 5rem;
-}
 
 a {
   text-decoration: none;
@@ -225,11 +225,48 @@ main h3{
 .keep_in_touch{
   padding-bottom: 5rem;
 }
+
+.dowload_area{
+  background-image: url(./img/stars.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 /* #endregion Main */
 /* #region Footer */
+footer{
+  background-color: var(--button-primary);
+  color: var(--bg-primary);
+}
+.footer_top .col-3{
+  flex-direction: column;
+}
+
+.footer_top img{
+  width: 0.8rem;
+}
+.footer_top .language{
+  font-size: 0.8rem;
+}
 
 footer .footer_bottom {
   padding: 1rem 0;
 }
 
+.thead{
+  color: var(--button-secondary);
+}
+.col-9 .thead{
+  font-size: 0.55rem;
+}
+footer a{
+  padding-bottom: 0.25rem;
+  font-size: 0.5rem;
+}
+
+.footer_top{
+  border-bottom: 1px solid var(--button-secondary);
+}
+.footer_bottom .button-secondary{
+  font-size: 0.6rem;
+}
 /* #endregion Footer */
