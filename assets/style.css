@@ -11,29 +11,40 @@ header,
 main,
 footer {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Noto Sans Buhid', sans-serif;
+
 }
 
-
+img{
+  max-width: 100%;
+  
+}
 button {
   border-radius: 5rem;
   padding: 0.35rem 0.5rem;
   border: 0;
   background-color: transparent;
 }
-.button.bg_primary{
+button.bg_primary{
   background-color: var(--bg-primary);
 }
 
-.button.button-primary{
+button.button-primary{
   background-color: var(--button-primary);
   color: var(--bg-primary);
 }
-
+button.button-secondary{
+  background-color: var(--button-secondary);
+  color: var(--bg-primary);
+  font-size: 0.7rem;
+}
+.testo{
+  flex-direction:column;
+  justify-content: center;
+}
 /* #endregion Common */
 /* #region Utility */
 .container {
-  width: 80%;
+  width: 85%;
   max-width: 100%;
   margin: auto
 }
@@ -68,7 +79,7 @@ button {
 }
 
 .bg_secondary {
-  background-color: lightgray;
+  background-color: var(--bg-secondary);
 }
 
 .py_2 {
@@ -153,7 +164,6 @@ nav img {
 a {
   text-decoration: none;
   font-size: 0.65rem;
-
 }
 
 header,
@@ -181,11 +191,11 @@ header .container-sm {
 }
 
 header h2 {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 header p {
-  font-size: 0.705rem;
+  font-size: 0.65rem;
   padding: 0 1rem;
 }
 .dowload{
@@ -200,6 +210,21 @@ main section {
   padding: 2rem 0;
 }
 
+main p{
+  font-size: 0.65rem;
+  padding-top: 2.5rem;
+}
+
+main .contents{
+  text-align: center;
+}
+main h3{
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.keep_in_touch{
+  padding-bottom: 5rem;
+}
 /* #endregion Main */
 /* #region Footer */
 
